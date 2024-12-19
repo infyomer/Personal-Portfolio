@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+![Portfolio Image](https://raw.githubusercontent.com/amansharma6664/Personal-Portfolio/main/src/images/portfolio.png)
 
 # Getting Started with Create React App
 
