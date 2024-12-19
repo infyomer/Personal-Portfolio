@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Portfolio](https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio/blob/main/src/images/portfolio.png)
 
 # Getting Started with Create React App
@@ -78,3 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Personal-Portfolio
 Welcome to my personal portfolio. Explore my work, skills, and achievements in a concise and visually appealing format. Get a glimpse of my expertise and creativity.
 >>>>>>> 90224be6b1a0db406262592c7e93566f3ea9e9c4
+=======
+# Personal-Portfolio
+Welcome to my personal portfolio, where you can discover my work, skills, and accomplishments presented in a clear and visually engaging way. Take a look at my expertise and creativity.
+>>>>>>> 3a790d4a0786fe56d35077b588350e22f5041c3c
