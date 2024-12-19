@@ -3,8 +3,7 @@ import Particle from "../../Particle";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import eco from "../../images/eco.png";
-import pp from "../../images/portfolio.png";
+import portfolio from "../../images/portfolio.png";
 import { FaCode } from "react-icons/fa";
 import nwyr from "../../images/nwyr.png";
 import reactimg from "../../images/reactimg.png";
@@ -233,11 +232,11 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                 Personal Portfolio
                                 </h5>
-                                <img src={eco} alt={eco} />
+                                <img src={portfolio} alt={portfolio} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Shoppy_Ecommerce"
+                                      ""
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -261,9 +260,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                                  Welcome to my personal portfolio, where you can discover my work, skills, and accomplishments
+                                  presented in a clear and visually engaging way. Take a look at my expertise and creativity.
                                 </p>
                               </h6>
                               <div

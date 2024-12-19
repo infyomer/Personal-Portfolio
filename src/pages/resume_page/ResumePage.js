@@ -9,8 +9,9 @@ import Zoom from "react-reveal/Zoom";
 import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "";
+  const resumeLink =
+  "https://raw.githubusercontent.com/amansharma6664/Personal-Portfolio/main/src/assets/Aman_Kumar_Sharma.pdf";
+
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -44,6 +45,8 @@ function Resume() {
               <div className="resume d-flex justify-content-center">
                 <Document file={resumeLink}>
                   <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
+                  <br />
+                  <Page pageNumber={2} scale={width > 786 ? 1.6 : 0.4} />
                 </Document>
               </div>
               <div className="d-flex justify-content-center">
