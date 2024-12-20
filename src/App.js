@@ -1,27 +1,32 @@
-import "./App.css";
 import React, { useState, useEffect } from "react";
-import "./style.css";
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// CSS Imports
 import "react-vertical-timeline-component/style.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";  // Only needed once
+import "./style.css";
+
+// Component Imports
 import Preloader from "./Preloader";
 import MyNav from "./components/navbar/MyNav";
-import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./components/footer/Footer";
+
+// Page Imports
 import Home from "./pages/home_page/HomePage";
 import Resume from "./pages/resume_page/ResumePage";
 import ProjectPage from "./pages/project_page/ProjectPage";
-import { Route, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
+import CertificatePage from "./pages/certificate_page/CertificatePage";
+import Notfound from "./pages/blogs_page/notfound";
+
+// About Me Section Imports
 import About from "./components/aboutme/about/About";
 import EducationJourney from "./components/aboutme/journey/EducationJourney";
-import CertificatePage from "./pages/certificate_page/CertificatePage";
 import PersonalSkill from "./components/aboutme/skills/PersonalSkill";
 import TechnicalSkill from "./components/aboutme/skills/TechnicalSkill";
-import Notfound from "./pages/blogs_page/notfound";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
-// import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
 
 function App() {
@@ -42,15 +47,14 @@ function App() {
         <MyNav />
         <Routes>
           <Route path="/" element={<Home />}>
-            <Route path="/" element={<About />}></Route>
+            <Route path="/" element={<About />} />
             <Route path="personalskill" element={<PersonalSkill />} />
             <Route path="technicalskill" element={<TechnicalSkill />} />
             <Route path="technicaljourney" element={<TechnicalJourney />} />
             <Route path="projectjourney" element={<ProjectJourney />} />
-            <Route path="educationjourney" element={<EducationJourney />}
-            ></Route>
-            <Route path="socialmedia" element={<SocialMedia />}></Route>
-            <Route path="toolkit" element={<Toolkit />}></Route>
+            <Route path="educationjourney" element={<EducationJourney />} />
+            <Route path="socialmedia" element={<SocialMedia />} />
+            <Route path="toolkit" element={<Toolkit />} />
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
           <Route path="/certificatepage" element={<CertificatePage />} />
