@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Portfolio Image](https://raw.githubusercontent.com/amansharma6664/Personal-Portfolio/main/src/images/portfolio.png)
 
 # Getting Started with Create React App
@@ -80,3 +81,7 @@ Welcome to my personal portfolio. Explore my work, skills, and achievements in a
 # Personal-Portfolio
 Welcome to my personal portfolio, where you can discover my work, skills, and accomplishments presented in a clear and visually engaging way. Take a look at my expertise and creativity.
 >>>>>>> 3a790d4a0786fe56d35077b588350e22f5041c3c
+=======
+# Personal-Portfolio
+ Welcome to my personal portfolio, where you can discover my work, skills, and accomplishments presented in a clear and visually engaging way. Take a look at my expertise and creativity.
+>>>>>>> 1a035fa95102e7ac69c5afc26f638f0963b0ebf7
