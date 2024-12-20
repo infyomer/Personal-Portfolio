@@ -2,6 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+
+  // Dependencies
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
@@ -31,18 +33,24 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
+
+  // Scripts for build, test, and development
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+  // ESLint configuration for the project
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+
+  // Browsers list for production and development environments
   "browserslist": {
     "production": [
       ">0.2%",
